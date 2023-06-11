@@ -1,0 +1,97 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = SudeProje
+build_property.RootNamespace = SudeProje
+build_property.ProjectDir = C:\Users\Sude\Desktop\sude web proje\SudeProje\SudeProje\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\Sude\Desktop\sude web proje\SudeProje\SudeProje
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/Sude/Desktop/sude web proje/SudeProje/SudeProje/Views/Default/DersDetay.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxEZXJzRGV0YXkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sude/Desktop/sude web proje/SudeProje/SudeProje/Views/Default/DersGetir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxEZXJzR2V0aXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sude/Desktop/sude web proje/SudeProje/SudeProje/Views/Default/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sude/Desktop/sude web proje/SudeProje/SudeProje/Views/Default/YeniDers.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxZZW5pRGVycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sude/Desktop/sude web proje/SudeProje/SudeProje/Views/Hakkimizda/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGFra2ltaXpkYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sude/Desktop/sude web proje/SudeProje/SudeProje/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sude/Desktop/sude web proje/SudeProje/SudeProje/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sude/Desktop/sude web proje/SudeProje/SudeProje/Views/Kullanicim/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sude/Desktop/sude web proje/SudeProje/SudeProje/Views/Kullanicim/KullaniciGetir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpbVxLdWxsYW5pY2lHZXRpci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sude/Desktop/sude web proje/SudeProje/SudeProje/Views/Kullanicim/YeniKullanici.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpbVxZZW5pS3VsbGFuaWNpLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sude/Desktop/sude web proje/SudeProje/SudeProje/Views/Login/GirisYap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cR2lyaXNZYXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sude/Desktop/sude web proje/SudeProje/SudeProje/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sude/Desktop/sude web proje/SudeProje/SudeProje/Views/Shared/_TestLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9UZXN0TGF5b3V0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sude/Desktop/sude web proje/SudeProje/SudeProje/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sude/Desktop/sude web proje/SudeProje/SudeProje/Views/Uygulamalidrs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXlndWxhbWFsaWRyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sude/Desktop/sude web proje/SudeProje/SudeProje/Views/Uygulamalidrs/UygulamalidrsGetir.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXlndWxhbWFsaWRyc1xVeWd1bGFtYWxpZHJzR2V0aXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sude/Desktop/sude web proje/SudeProje/SudeProje/Views/Uygulamalidrs/YeniUygulamalidrs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXlndWxhbWFsaWRyc1xZZW5pVXlndWxhbWFsaWRycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sude/Desktop/sude web proje/SudeProje/SudeProje/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sude/Desktop/sude web proje/SudeProje/SudeProje/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Sude/Desktop/sude web proje/SudeProje/SudeProje/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ryk7vhjgso
