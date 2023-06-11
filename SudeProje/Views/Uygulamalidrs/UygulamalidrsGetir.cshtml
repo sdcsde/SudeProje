@@ -1,0 +1,22 @@
+﻿@model SudeProje.Models.Uygulamali
+@{
+    ViewData["Title"] = "UygulamalidrsGetir";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<br />
+@using (Html.BeginForm("UygulamalidrsGuncelle", "Uygulamalidrs", FormMethod.Post))
+{
+    <b>Uygulamalı Ders ID</b>
+    @Html.TextBoxFor(x=>x.UygulamaliID, new {@class = "form-control"})
+    <br />
+    <b>Uygulamalı Ders Adı</b>
+    @Html.TextBoxFor(x=>x.UygulamaliAd, new {@class = "form-control"})
+    <br />
+    <b>Uygulamalı Ders Öğretmen Adı</b>
+    @Html.TextBoxFor(x=>x.UygulamaliOgretmen, new {@class = "form-control"})
+    <br />
+    <button class="btn btn-default" style="background-color:orange">Uygulamalı Ders Güncelle</button>
+}
+
+

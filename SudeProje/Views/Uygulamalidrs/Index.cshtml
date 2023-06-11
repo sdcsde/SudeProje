@@ -1,0 +1,32 @@
+﻿@using SudeProje.Models
+@model List<Uygulamali>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>Uygulamalı Ders ID</th>
+        <th>Uygulamalı Ders  Adı</th>
+        <th>Uygulamalı Ders  Öğretmeni</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+        <th>Detaylar</th>
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.UygulamaliID</td>
+            <td>@x.UygulamaliAd</td>
+            <td>@x.UygulamaliOgretmen</td>
+            <td><a href="/Uygulamalidrs/UygulamalidrsSil/@x.UygulamaliID" class="btn btn-danger">Sil</a></td>
+            <td><a href="/Uygulamalidrs/UygulamalidrsGetir/@x.UygulamaliID" class="btn btn-success">Güncelle</a></td>
+            <td><a href="#" class="btn btn-default">Detaylar</a></td>
+        </tr>
+    }
+</table>
+<a href="/Uygulamalidrs/YeniUygulamalidrs/" class="btn btn-primary">Yeni Uygulamalı Ders</a>
+
+

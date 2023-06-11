@@ -1,0 +1,25 @@
+﻿@model SudeProje.Models.Kullanici
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<br />
+<form class="from-group" method="post">
+    <b>Nickname</b>
+    @Html.TextBoxFor(x=>x.Nickname, new {@class = "form-control"})
+    <br />
+    <b>Kullanıcı Adı</b>
+    @Html.TextBoxFor(x=>x.KullaniciAd, new {@class = "form-control"})
+    <br />
+
+    <b>Kullanıcı Soyadı</b>
+    @Html.TextBoxFor(x=>x.KullaniciSoyad, new {@class = "form-control"})
+    <br />
+
+    <b>Ders</b>
+    @Html.DropDownListFor(x => x.Ders.DersID, (List<SelectListItem>)ViewBag.dgr, new {@class ="form-control"})
+    <br />
+
+    <button class="btn btn-info">Kullanıcı Ekle</button>
+</form>

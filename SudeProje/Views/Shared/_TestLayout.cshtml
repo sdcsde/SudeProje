@@ -1,0 +1,38 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+<body>
+
+    <!-- Sidebar -->
+    <div class="w3-sidebar w3-light-grey w3-bar-block" style="width:15%">
+        <h3 class="w3-bar-item">İçerik</h3>
+        <a href="/Default/Index/" class="w3-bar-item w3-button">Dersler</a>
+        <a href="/Uygulamalidrs/Index/" class="w3-bar-item w3-button">Uygulamalı Dersler</a>
+        <a href="/Default/Index/" class="w3-bar-item w3-button">Sertfikalar</a>
+        <a href="/Kullanicim/Index/" class="w3-bar-item w3-button">Kullanıcılar</a>
+        <a href="/Hakkimizda/Index/" class="w3-bar-item w3-button">Hakkımızda</a>
+        <a href="/Login/GirisYap/" class="w3-bar-item w3-button">Çıkış</a>
+    </div>
+
+    <!-- Page Content -->
+    <div style="margin-left:15%">
+
+        <div class="w3-container w3-teal">
+            <h1>Afet Yönetim Eğitim Sitesi</h1>
+        </div>
+
+        <div class="w3-container">
+            @RenderBody()
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+﻿@model SudeProje.Models.Uygulamali
+@{
+    ViewData["Title"] = "YeniUygulamalidrs";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<br />
+<form class="from-group" method="post">
+    <b>Uygulamalı Ders Adı</b>
+    @Html.TextBoxFor(x=>x.UygulamaliAd, new {@class = "form-control"})
+    <br />
+    <b>Uygulamalı Ders Detayı</b>
+    @Html.TextBoxFor(x=>x.UygulamaliDetay, new {@class = "form-control"})
+    <br />
+    <b>Uygulamalı Ders Öğretmeni Adı</b>
+    @Html.TextBoxFor(x=>x.UygulamaliOgretmen, new {@class = "form-control"})
+    <br />
+    <button class="btn btn-info">Uygulamalı Ders Ekle</button>
+</form>
+
+

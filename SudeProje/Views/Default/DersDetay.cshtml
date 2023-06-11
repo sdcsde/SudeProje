@@ -1,0 +1,29 @@
+﻿@using SudeProje.Models
+@model List<Kullanici>
+@{
+    ViewData["Title"] = "DersDetay";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<br />
+<h2>@ViewBag.drs Dersini Alanlar</h2>
+<br />
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Nickname</th>
+        <th>Ad</th>
+        <th>Soyad</th>
+
+    </tr>
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.KullaniciID</td>
+            <td>@x.Nickname</td>
+            <td>@x.KullaniciAd</td>
+            <td>@x.KullaniciSoyad</td>
+        </tr>
+    }
+</table>
+

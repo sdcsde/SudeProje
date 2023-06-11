@@ -1,0 +1,23 @@
+﻿@model SudeProje.Models.Ders
+@{
+    ViewData["Title"] = "DersGetir";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+
+<br />
+@using (Html.BeginForm("DersGuncelle", "Default", FormMethod.Post))
+{
+    <b>Ders ID</b>
+    @Html.TextBoxFor(x=>x.DersID, new {@class = "form-control"})
+    <br />
+    <b>Ders Adı</b>
+    @Html.TextBoxFor(x=>x.DersAd, new {@class = "form-control"})
+    <br />
+    <b>Ders Öğretmen Adı</b>
+    @Html.TextBoxFor(x=>x.DersOgretmen, new {@class = "form-control"})
+    <br />
+    <button class="btn btn-default" style="background-color:orange">Ders Güncelle</button>
+}
+
+
